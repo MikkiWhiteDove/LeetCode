@@ -25,7 +25,18 @@ import Foundation
 
 //class Solution {
 //    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-//
+//        var ans:[Int] = []
+//        for i in 0..<nums.count {
+//            for j in 1..<nums.count {
+//                let sum = nums[i] + nums[j]
+//                if target == sum && i != j {
+//                    ans.append(i)
+//                    ans.append(j)
+//                    return ans
+//                }
+//            }
+//        }
+//        return ans
 //    }
 //}
 
